@@ -1,15 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>GILT Test - Start</title>
+  <title>GILT: Visual Assessment Tool</title>
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
-    button { padding: 12px 24px; font-size: 18px; }
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 60px;
+      line-height: 1.6;
+    }
+    a button {
+      padding: 12px 24px;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+    .reference {
+      font-size: 14px;
+      margin-top: 40px;
+      color: #555;
+    }
+    .paper-link a {
+      color: #0077cc;
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
-  <h1>🧠 Welcome to the GILT Visual Test</h1>
-  <p>This test will show you degraded letters to assess your visual processing.</p>
-  <a href="/start"><button>Start Test</button></a>
+
+  <h1>Graded Incomplete Letter Test (GILT)</h1>
+
+  <p>
+    This digital tool simulates the GILT task used to assess cortical visual function — particularly in individuals with dementia-related visual impairment.
+    It is based on the scientific framework presented in:
+  </p>
+
+  <div class="paper-link">
+    <i>Yong, K. X. X., et al. (2024). <a href="https://link.springer.com/article/10.3758/s13428-024-02448-7" target="_blank">
+    A digital test for cortical visual dysfunction: Graded Incomplete Letters (GILT)</a>. <br>Behavior Research Methods.</i>
+  </div>
+
+  <p>
+    This test presents degraded letter images across multiple completeness levels (e.g., 100% to 1.58%). The assessment follows stopping rules and threshold calculations 
+    derived from the original clinical study.
+  </p>
+
+  <a href="/start">
+    <button>Start the GILT Assessment</button>
+  </a>
+
+  <div class="reference">
+    Independent research implementation by <b>Ishsirjan Kaur Chandok</b><br>
+    M.Tech in Medical Biotechnology, IIT Hyderabad<br>
+    GitHub Repo: <a href="https://github.com/Ishsirjan/GILT" target="_blank">github.com/Ishsirjan/GILT</a>
+  </div>
+
 </body>
 </html>
